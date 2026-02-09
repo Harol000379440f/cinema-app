@@ -1,9 +1,11 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: mi-primer-servicio
-  description: Este es el servicio que creamos para la demostración técnica.
+  name: cinema-app
+  description: Front DevOps – aplicación de ejemplo
+  annotations:
+    github.com/project-slug: Harol000379440f/cinema-app
 spec:
   type: service
   lifecycle: experimental
-  owner: Harol-Rueda
+  owner: user:default/harolrueda
